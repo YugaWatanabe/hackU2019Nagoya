@@ -4,7 +4,7 @@
 $macad = array(); // MacAddress array
 
 //Read csvfile and push
-if (($handle = fopen("MacTabler1.csv", "r")) !== FALSE){
+if (($handle = fopen("MacDataTable1.csv", "r")) !== FALSE){
     while (($data = fgetcsv($handle))) {
         #$row++;
         #echo "${row}: \n"
